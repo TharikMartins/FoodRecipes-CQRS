@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D00DF840-1505-4BDB-A95E-4AB4F2470A1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodRecipes.CQRS.API", "src\FoodRecipes.CQRS.API\FoodRecipes.CQRS.API.csproj", "{A66BF1BA-0AB6-4CCF-B762-E499A6D554D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodRecipes.CQRS.Domain", "src\FoodRecipes.CQRS.Domain\FoodRecipes.CQRS.Domain.csproj", "{DA8E9650-4F6E-4B94-88DA-76F913204FDC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodRecipes.CQRS.Infrastructure", "src\FoodRecipes.CQRS.Infrastructure\FoodRecipes.CQRS.Infrastructure.csproj", "{F858B7BE-BE13-46D6-920F-ECBFC2FC63B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodRecipes.CQRS.Application", "src\FoodRecipes.CQRS.Application\FoodRecipes.CQRS.Application.csproj", "{7A3D2AB8-3DD8-4BCB-8F86-5A6E5179DF63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodRecipes.CQRS.CrossCutting", "src\FoodRecipes.CQRS.CrossCutting\FoodRecipes.CQRS.CrossCutting.csproj", "{1E020429-206F-42B7-B94B-9CD50DF0B811}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A66BF1BA-0AB6-4CCF-B762-E499A6D554D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A66BF1BA-0AB6-4CCF-B762-E499A6D554D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A66BF1BA-0AB6-4CCF-B762-E499A6D554D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A66BF1BA-0AB6-4CCF-B762-E499A6D554D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA8E9650-4F6E-4B94-88DA-76F913204FDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA8E9650-4F6E-4B94-88DA-76F913204FDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA8E9650-4F6E-4B94-88DA-76F913204FDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA8E9650-4F6E-4B94-88DA-76F913204FDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F858B7BE-BE13-46D6-920F-ECBFC2FC63B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F858B7BE-BE13-46D6-920F-ECBFC2FC63B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F858B7BE-BE13-46D6-920F-ECBFC2FC63B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F858B7BE-BE13-46D6-920F-ECBFC2FC63B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A3D2AB8-3DD8-4BCB-8F86-5A6E5179DF63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A3D2AB8-3DD8-4BCB-8F86-5A6E5179DF63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A3D2AB8-3DD8-4BCB-8F86-5A6E5179DF63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A3D2AB8-3DD8-4BCB-8F86-5A6E5179DF63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E020429-206F-42B7-B94B-9CD50DF0B811}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E020429-206F-42B7-B94B-9CD50DF0B811}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E020429-206F-42B7-B94B-9CD50DF0B811}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E020429-206F-42B7-B94B-9CD50DF0B811}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A66BF1BA-0AB6-4CCF-B762-E499A6D554D1} = {D00DF840-1505-4BDB-A95E-4AB4F2470A1B}
+		{DA8E9650-4F6E-4B94-88DA-76F913204FDC} = {D00DF840-1505-4BDB-A95E-4AB4F2470A1B}
+		{F858B7BE-BE13-46D6-920F-ECBFC2FC63B3} = {D00DF840-1505-4BDB-A95E-4AB4F2470A1B}
+		{7A3D2AB8-3DD8-4BCB-8F86-5A6E5179DF63} = {D00DF840-1505-4BDB-A95E-4AB4F2470A1B}
+		{1E020429-206F-42B7-B94B-9CD50DF0B811} = {D00DF840-1505-4BDB-A95E-4AB4F2470A1B}
+	EndGlobalSection
+EndGlobal

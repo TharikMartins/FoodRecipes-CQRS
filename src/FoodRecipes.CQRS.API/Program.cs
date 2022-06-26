@@ -1,4 +1,5 @@
 using FoodRecipes.CQRS.CrossCutting;
+using FoodRecipes.CQRS.Api.Middlewares;
 using MediatR;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -22,5 +23,7 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 
 app.MapControllers();
+
+app.UseMiddleware<ErrorHandlerMiddleware>();
 
 app.Run();
